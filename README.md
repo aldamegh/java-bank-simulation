@@ -2,6 +2,24 @@
 
 An in-memory, menu-driven bank simulation using classes and fixed-capacity arrays. It supports client creation/deletion, deposits, withdrawals, transfers, and balance lookup.
 
+## Example walkthrough
+
+Two fictional clients start with 1,000 and 500 SR. A deposit and transfer succeed; a withdrawal above the available balance is rejected. No real accounts or transactions are involved.
+
+![Synthetic example output](docs/demo-output.svg)
+
+Run from the repository root. For Java, create `build` if it does not already exist:
+
+```sh
+mkdir build
+javac --release 8 -encoding UTF-8 -d build src/*.java examples/*.java
+java -cp build BankDemo
+```
+
+[Runnable example](examples/) · [Plain-text output](examples/output.txt)
+
+The example and output visual were added for this portfolio in November 2026 using newly authored synthetic inputs. They are separate from the original coursework.
+
 ## Course and original date
 
 - **Course / المادة:** CSC 111 - Computer Programming I / برمجة الحاسبات 1, King Saud University.

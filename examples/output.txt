@@ -1,0 +1,13 @@
+Fictional starting balances
+DemoAlice 1000.0 SR
+DemoBob 500.0 SR
+
+Deposit 200 to DemoAlice: true
+Transfer 300 to DemoBob: true
+Withdraw 900 from DemoBob: false
+
+Final balances
+DemoAlice 900.0 SR
+DemoBob 800.0 SR
+
+The withdrawal is rejected: insufficient balance.
